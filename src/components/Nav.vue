@@ -39,7 +39,7 @@
 
     .custom-menu-wrapper {
         background-color: teal;
-        margin-bottom: 2.5em;
+        /*margin-bottom: 2.5em;*/
         white-space: nowrap;
         position: relative;
     }
