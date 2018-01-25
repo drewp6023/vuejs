@@ -12,10 +12,15 @@ export default new Router({
         name: 'HomePage',
         component: HomePage
     },
-    {
-      path: '/hello-world',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
+    // {
+    //   path: '/about',
+    //   name: 'AboutPage',
+    //   component: AboutPage
+    // },
+    // {
+    //   path: '/contact',
+    //   name: 'ContactPage',
+    //   component: ContactPage
+    // }
   ]
 })

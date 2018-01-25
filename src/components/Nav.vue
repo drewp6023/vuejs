@@ -21,8 +21,6 @@
     export default {
         name: 'Nav',
         mounted: function() {
-            var $ = jQuery || $;
-
             $('#toggle').on('click', function (e) {
                 $('#tuckedMenu').toggleClass('custom-menu-tucked');
                 $('#toggle').toggleClass('x');
