@@ -9,7 +9,7 @@
         name: 'HomePage',
         data () {
             return {
-                msg: 'This is the Home Page'
+                msg: ''
             }
         }
     }

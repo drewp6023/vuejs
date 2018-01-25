@@ -4,6 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// PureCSS styles
+require('../node_modules/purecss/build/pure-min.css');
+require('../node_modules/purecss/build/grids-responsive-min.css');
+require('../node_modules/purecss/build/buttons-min.css');
+
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */

@@ -1,14 +1,20 @@
 <template>
   <div id="app">
     <!--<img src="./assets/images/logo.png">-->
+    <Nav></Nav>
     <router-view/>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+    import Nav from './components/Nav.vue';
+
+    export default {
+        name: 'App',
+        components: {
+            Nav
+        }
+    }
 </script>
 
 <style lang="scss">
